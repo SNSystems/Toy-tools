@@ -1,0 +1,7 @@
+#!/bin/bash
+basedir="$(cd "$(dirname "$BASH_SOURCE")" && pwd)"
+echo "(Remember to run using 'source')"
+echo "Seting PATH and PYTHONPATH environment variables relative to $basedir"
+export PATH="$basedir/bin":$PATH
+export PYTHONPATH="$basedir":$PYTHONPATH
+

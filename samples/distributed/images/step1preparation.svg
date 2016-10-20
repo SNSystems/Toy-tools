@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="6 3 578 535" width="289pt" height="276.5pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 6.6.1
+    <dc:date>2016-09-27 14:05:41 +0000
+    </dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.683594" underline-thickness="49.316406" slope="0" x-height="522.94922" cap-height="717.28516" ascent="770.01953" descent="-229.98047" font-weight="500">
+      <font-face-src>
+	<font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+	<path d="M 3.7333333 0 L 0 0 M 0 -1.4 L 3.7333333 0 L 0 1.4" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="999999" />
+    </marker>
+    <filter id="Shadow" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.308"/>
+      <feOffset in="blur" result="offset" dx="2" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".238147" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+	<feMergeNode in="color"/>
+	<feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker_2" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+	<path d="M 4.8 0 L 0 0 M 0 -1.8 L 4.8 0 L 0 1.8" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="999999"/>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker_3" viewBox="-6 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+	<path d="M -4.8 0 L 0 0 M 0 1.8 L -4.8 0 L 0 -1.8" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="999999"/>
+    </marker>
+    <font-face font-family="Helvetica" font-size="10" units-per-em="1000" underline-position="-75.683594" underline-thickness="49.316406" slope="0" x-height="522.94922" cap-height="717.28516" ascent="770.01953" descent="-229.98047" font-weight="500">
+      <font-face-src>
+	<font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1" font-family="Helvetica" font-size="12">
+    <title>Canvas 1</title>
+    <g>
+      <title>Agent boxes</title>
+      <rect x="192.7559" y="334.48819" width="388.34645" height="201.25984" fill="#e6e6e6"/>
+      <rect x="192.7559" y="334.48819" width="388.34645" height="201.25984" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(197.7559 517.24803)" fill="black">
+	<tspan x="0" y="11">Agent #2</tspan>
+      </text>
+      <rect x="192.7559" y="5.6692913" width="388.34645" height="204.09449" fill="#e6e6e6"/>
+      <rect x="192.7559" y="5.6692913" width="388.34645" height="204.09449" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(197.7559 10.669291)" fill="black">
+	<tspan x="0" y="11">Agent #1</tspan>
+      </text>
+    </g>
+    <g>
+      <title>Stage 1: Prepare</title>
+      <path d="M 74.12514 199.57146 C 90.26997 223.91191 110.55118 209.76378 121.88976 240.94488 C 133.228346 272.12598 102.99373 295.68339 119.05512 331.65354 C 132.91747 362.69888 171.41728 407.72508 203.56942 425.20323" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1,3"/>
+      <line x1="92.534124" y1="104.68253" x2="203.6863" y2="56.355493" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1,3"/>
+      <line x1="92.53412" y1="167.04473" x2="203.6863" y2="118.71769" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1,3"/>
+      <path d="M 66.38134 332.06735 C 85.03934 371.33827 107.916487 403.36836 133.228346 430.86614 C 155.14881 454.67965 173.11732 473.38833 203.31413 485.99317" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1,3"/>
+      <g filter="url(#Shadow)">
+	<path d="M 226.26771 96.377947 L 303.81102 96.377947 C 308.2293 96.377947 311.81102 99.95967 311.81102 104.377947 L 311.81102 120.37795 C 311.81102 124.796225 308.2293 128.37795 303.81102 128.37795 L 226.26771 128.37795 C 221.84943 128.37795 218.26771 124.796225 218.26771 120.37795 L 218.26771 104.377947 C 218.26771 99.95967 221.84943 96.377947 226.26771 96.377947 Z" fill="#9fa55f"  stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(223.26771 105.377947)" fill="white">
+	  <tspan x="19.095872" y="11">main.toy</tspan>
+	</text>
+      </g>
+      <g filter="url(#Shadow)">
+	<path d="M 226.26771 34.015748 L 303.81102 34.015748 C 308.2293 34.015748 311.81102 37.59747 311.81102 42.015748 L 311.81102 58.015748 C 311.81102 62.434026 308.2293 66.015748 303.81102 66.015748 L 226.26771 66.015748 C 221.84943 66.015748 218.26771 62.434026 218.26771 58.015748 L 218.26771 42.015748 C 218.26771 37.59747 221.84943 34.015748 226.26771 34.015748 Z" fill="#9fa55f" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(223.26771 43.015748)" fill="white">
+	  <tspan fill="white" x="11.091966" y="11">factorial.toy</tspan>
+	</text>
+      </g>
+      <g filter="url(#Shadow)">
+	<path d="M 8.503937 231.43307 L 102.047243 231.43307 L 102.047243 263.1811 C 73.98425 259.2126 36.56693 275.08661 8.503937 267.1496 Z" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(13.503937 242.29134)" fill="black">
+	  <tspan x="15.427903" y="11">repo.yaml</tspan>
+	</text>
+      </g>
+      <g filter="url(#Shadow)">
+	<path d="M 150.44094 277.79527 L 247.82677 277.79527 C 252.24505 277.79527 255.82677 281.377 255.82677 285.79527 L 255.82677 301.79527 C 255.82677 306.21355 252.24505 309.79527 247.82677 309.79527 L 150.44094 309.79527 C 146.022666 309.79527 142.44094 306.21355 142.44094 301.79527 L 142.44094 285.79527 C 142.44094 281.377 146.022666 277.79527 150.44094 277.79527 Z" fill="#2855a5"  stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(147.44094 286.79527)" fill="white">
+	  <tspan x="17.667522" y="11">toystrip</tspan>
+	</text>
+      </g>
+      <line x1="255.82677" y1="293.79527" x2="270.06457" y2="293.79527" marker-end="url(#StickArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g filter="url(#Shadow)">
+	<path d="M 16.503937 167.2441 L 94.047243 167.2441 C 98.46552 167.2441 102.047243 170.82582 102.047243 175.2441 L 102.047243 191.2441 C 102.047243 195.66237 98.46552 199.2441 94.047243 199.2441 L 16.503937 199.2441 C 12.085659 199.2441 8.503937 195.66237 8.503937 191.2441 L 8.503937 175.2441 C 8.503937 170.82582 12.085659 167.2441 16.503937 167.2441 Z" fill="#9fa55f"  stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(13.503937 176.2441)" fill="white">
+	  <tspan x="19.095872" y="11">main.toy</tspan>
+	</text>
+      </g>
+      <g filter="url(#Shadow)">
+	<path d="M 16.503937 104.88189 L 94.047243 104.88189 C 98.46552 104.88189 102.047243 108.46361 102.047243 112.88189 L 102.047243 128.88189 C 102.047243 133.30017 98.46552 136.88189 94.047243 136.88189 L 16.503937 136.88189 C 12.085659 136.88189 8.503937 133.30017 8.503937 128.88189 L 8.503937 112.88189 C 8.503937 108.46361 12.085659 104.88189 16.503937 104.88189 Z" fill="#9fa55f"  stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(13.503937 113.88189)" fill="white">
+	  <tspan x="11.091966" y="11">factorial.toy</tspan>
+	</text>
+      </g>
+      <g filter="url(#Shadow)">
+	<path d="M 16.503937 299.65323 L 94.047243 299.65323 C 98.46552 299.65323 102.047243 303.23496 102.047243 307.65323 L 102.047243 323.65323 C 102.047243 328.07151 98.46552 331.65323 94.047243 331.65323 L 16.503937 331.65323 C 12.085659 331.65323 8.503937 328.07151 8.503937 323.65323 L 8.503937 307.65323 C 8.503937 303.23496 12.085659 299.65323 16.503937 299.65323 Z" fill="#9fa55f"  stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(13.503937 308.65323)" fill="white">
+	  <tspan  fill="white" x="18.093919" y="11">sieve.toy
+	  </tspan>
+	</text>
+      </g>
+      <g filter="url(#Shadow)">
+	<path d="M 342.99212 158.74015 L 436.53543 158.74015 L 436.53543 190.48819 C 408.47244 186.51968 371.05512 202.3937 342.99212 194.45669 Z" fill="white"/>
+	<path d="M 342.99212 158.74015 L 436.53543 158.74015 L 436.53543 190.48819 C 408.47244 186.51968 371.05512 202.3937 342.99212 194.45669 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(347.99212 167.09842)" fill="black">
+	  <tspan  x="12.090989" y="11">repo<tspan baseline-shift="sub">1</tspan>.yaml</tspan>
+	</text>
+      </g>
+      <g filter="url(#Shadow)">
+	<path d="M 351.49606 351.49605 L 445.03937 351.49605 L 445.03937 383.24408 C 416.97638 379.27558 379.55905 395.1496 351.49606 387.21259 Z" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(356.49606 359.85432)" fill="black">
+	  <tspan  x="12.090989" y="11">repo<tspan baseline-shift="sub">2</tspan>.yaml</tspan>
+	</text>
+      </g>
+      <line x1="342.4622" y1="307.73196" x2="370.03923" y2="339.16762" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1,3"/>
+      <line x1="340.71776" y1="273.50854" x2="373.65578" y2="209.7579" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1,3"/>
+      <g filter="url(#Shadow)">
+	<path d="M 226.26772 475.40157 L 303.81102 475.40157 C 308.2293 475.40157 311.81102 478.9833 311.81102 483.40157 L 311.81102 499.40157 C 311.81102 503.81985 308.2293 507.40157 303.81102 507.40157 L 226.26772 507.40157 C 221.84944 507.40157 218.26772 503.81985 218.26772 499.40157 L 218.26772 483.40157 C 218.26772 478.9833 221.84944 475.40157 226.26772 475.40157 Z" fill="#9fa55f" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(223.26772 484.40157)" fill="white">
+	  <tspan  fill="white" x="18.093919" y="11">sieve.toy
+	  </tspan>
+	</text>
+      </g>
+      <g filter="url(#Shadow)">
+	<path d="M 226.26772 415.2756 L 303.81102 415.2756 C 308.2293 415.2756 311.81102 418.85732 311.81102 423.2756 L 311.81102 439.2756 C 311.81102 443.69387 308.2293 447.2756 303.81102 447.2756 L 226.26772 447.2756 C 221.84944 447.2756 218.26772 443.69387 218.26772 439.2756 L 218.26772 423.2756 C 218.26772 418.85732 221.84944 415.2756 226.26772 415.2756 Z" fill="#9fa55f" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(223.26772 424.2756)" fill="white">
+	  <tspan  fill="white" x="19.095872" y="11">main.toy
+	  </tspan>
+	</text>
+      </g>
+      <path d="M 80.21178 263.43958 L 112.5443 279.21155 C 115.394055 273.36955 128.87558 279.9459 126.02583 285.7879 L 130.84683 288.13961" marker-end="url(#StickArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g filter="url(#Shadow)">
+	<path d="M 283.46457 273.95275 L 377.00787 273.95275 L 377.00787 305.70079 C 348.94488 301.73228 311.52756 317.6063 283.46457 309.66929 Z" fill="white"/>
+	<path d="M 283.46457 273.95275 L 377.00787 273.95275 L 377.00787 305.70079 C 348.94488 301.73228 311.52756 317.6063 283.46457 309.66929 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+	<text transform="translate(288.46457 284.81102)" fill="black">
+	  <tspan font-family="Helvetica" font-size="12" font-weight="500" x="12.427903" y="11" textLength="58.6875">repoc.yaml
+	  </tspan>
+	</text>
+      </g>
+    </g>
+  </g>
+</svg>

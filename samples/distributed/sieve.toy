@@ -1,0 +1,33 @@
+maxprime { 10 }
+sieve {
+    # Push a temp dictionary onto the dict stack
+    # I'm about to abuse the keys of this dictionary to simulate a set of integers:
+    # the dictionary keys are integers and the presence or absence of a key indicates
+    # its membership of the set.
+    dict begin
+        2 1 maxprime
+        {
+                          # prime = control
+            dup           # prime prime
+            2 mul         # prime initial
+            exch maxprime # initial prime topvalue
+            { 1 def }
+            for
+        }
+        for
+
+        1 1 maxprime
+        {
+                         # index = control
+                         #   Is the control integer present?
+            dup          # index index
+            currentdict  # index index dict
+            exch         # index dict index
+            known        # index bool
+            { pop }
+            { print }
+            ifelse
+        } for
+    end   # Remove temp dictionary from the dict stack.
+}
+#eof sieve.toy

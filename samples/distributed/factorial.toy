@@ -1,0 +1,17 @@
+# num factorial num
+# Computes the factorial of num pushing the result onto the stack.
+factorial {
+                   # x
+    dup 0 eq       # x bool
+    { pop 1 }      # 1
+    {
+        dup 1 sub  # x (x-1)
+        factorial  # x ((x-1)!)
+        mul        # x!
+    }
+    ifelse
+}
+
+fact3 {
+    3 factorial
+}

@@ -1,0 +1,5 @@
+main {
+    "maxprime" { 50 } def
+    sieve
+    fact3 "factorial:" print print
+}

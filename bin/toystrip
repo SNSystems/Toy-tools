@@ -1,0 +1,9 @@
+#!/bin/bash
+# -*- coding: utf-8 -*-
+## Copyright (c) 2016 by Sony Interactive Entertainment, Inc.
+## This file is subject to the terms and conditions defined in file
+## 'LICENSE.txt', which is part of this source code package.
+
+python3 -m toystrip "$@"
+
+#eof bin/toystrip
