@@ -6,11 +6,7 @@ The program consists of three small source files, `factorial.toy`, `sieve.toy`, 
 
 The link itself is performed in the sample's root directory, drawing the three object files to be linked as well as the two repositories from the two agents' directories. 
 
-The diagram below illustrates how the source files are "remotely" compiled by the agents and linked on the host to produce the executable (`main.tx`).
-
-![Flow diagram](images/flowdiagram.svg "Flow diagram")
-
-The use of directories to simulate the agents means that no files are physically copied from host to agent and vice versa. Hopefully, despite this divergence from the real system, the intent of example is clear.
+The steps below illustrate how the source files are "remotely" compiled by the agents and linked on the host to produce the executable (`main.tx`). The use of directories to simulate the agents means that no files are physically copied from host to agent and vice versa. Hopefully, despite this divergence from the real system, the intent of example is clear.
 
 ## Step-by-step workflow
 
