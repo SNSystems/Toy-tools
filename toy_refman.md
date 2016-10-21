@@ -1,6 +1,6 @@
 # The Toy Programming Language 
 
-The Toy programming language is heavily based on [PostScript](www.adobe.com/products/postscript), albeit a highly stripped-down version of the language. The syntax differs slightly in the use of the number sign ('#') rather than percent ('%') to introduce a comment, and quotation marks ('"') rather than parentheses ('%') to delimit strings. The major change is that rather than an interpreter which reads and executes a source stream, there is a compiler and linker in the same way as in a statically-compiled language.
+The Toy programming language is heavily based on [PostScript](www.adobe.com/products/postscript), albeit a highly stripped-down version of the language. The syntax differs slightly in the use of the number sign ('#') rather than percent ('%') to introduce a comment, and quotation marks ('"') rather than parentheses ('(' and ')') to delimit strings. The major change is that rather than an interpreter which reads and executes a source stream, there is a compiler and linker in the same way as in a statically-compiled language.
 
 ## Introduction
 
