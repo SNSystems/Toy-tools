@@ -12,7 +12,7 @@ Tool | Role
 `toystrip` | A repository strip utility for distributed builds.
 `toymerge` | A utility to merge repositories for distributed builds. It adds definitions from repositories modified by one or more remote agents.
 
-If, for some reason, you'd like to read about the Toy language, it is described in the [reference manual](toy_refman.nd).
+If, for some reason, you'd like to read about the Toy language, it is described in the [reference manual](toy_refman.md).
 
 ## Prerequisites
 
