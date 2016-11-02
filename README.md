@@ -43,7 +43,7 @@ The `setup` shell script handles this step:
 
 The `setup.bat` batch file handles this step for the CMD shell:
 
-    C:\toy_tools\samples\distributed>setup.bat
+    C:\toy_tools>setup.bat
 
 
 ## "Binary" files
@@ -72,12 +72,12 @@ The first program to write is the same for all languages: print the words "hello
 
 Typical build workflow is intended to fairly closely mirror that of a typical C development environment, with the exception that the compiler is just that: a compiler, rather than a "compiler driver" which knows how to run an assembler or link programs. Taking a simple, single source file, "hello.toy" program, compiling to an "object file" named "hello.to" and linking it to make "hello.tx" would look like:
 
-    $ toycc -g -o hello.to hello.toy
-    $ toyld -o hello.tx  hello.to
+    $ toycc -g -o hello.o hello.toy
+    $ toyld -o hello.x  hello.o
 
 The tools don't produce a native binary, so running it is a little different, but not terribly complex:
 
-    $ toyvm hello.tx
+    $ toyvm hello.x
 
 When run, it will print
 
@@ -94,12 +94,11 @@ The tools suite includes a simple, very limited, command-line debugger. Sporting
 
 Running the debugger is straightforward:
 
-     $ toydb main.tx
+     $ toydb hello.x
      Toy debugger. Remember, it's just a toy.
-     Executable "main.tx" was not found
      (toydb)
 
-The commands supported are a very basic subset of GDB-like commands; the main ones being:
+The commands supported are a very basic subset of GDB-like commands, the main ones being:
 
 - "help" to see the complete list of supported commands
 - "step": execute a single instruction
