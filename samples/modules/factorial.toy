@@ -13,11 +13,6 @@ factorial {
 }
 
 
-fact4 {
-    4 factorial
-}
-
-
 fact3 {
     3 factorial
 }
