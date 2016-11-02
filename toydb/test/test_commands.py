@@ -34,6 +34,10 @@ class TestGetCandidates (unittest.TestCase):
         command_dict = { 'a' : 1 }
         actual = commands.get_candidates ('', command_dict)
         self.assertEqual (actual, dict ())
+    def test_matching_single_letter_matching_candidate_with_invalid_case(self):
+        command_dict = { 'opstack': 1 }
+        actual = commands.get_candidates ('O', command_dict)
+        self.assertEqual (actual, dict())
 
 
     def test_matching_single_letter_with_single_command (self):

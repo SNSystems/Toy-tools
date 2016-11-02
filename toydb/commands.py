@@ -37,31 +37,13 @@ def get_candidates (input_str:str, command_dict:Mapping [str, CommandCallback]) 
     :return: A dictionary containing those entries from command_dict whose initial characters match the characters in
              input_str. If input_str is empty or None, then an empty dictionary.
     """
+    result = {}
 
-    if input_str is None or len (input_str) == 0:
-        return dict ()
+    if input_str:
+        matching = [c for c in command_dict.keys() if c.startswith(input_str)]
+        result = {name: command_dict[name] for name in matching}
 
-    # Build a list of the input commands. The resulting list has two values per entry: the trimmed command from which
-    # we remove a character at a time as the input string is processed, and the original string which is used if
-    # a match is found.
-    command_names = [(c, c) for c in command_dict.keys ()]
-
-    # Now keep processing whilst we've got potential matches or any characters left in the input.
-    while len (command_names) > 0 and len (input_str) > 0:
-        first_char = input_str [0]
-        input_str = input_str [1:]
-
-        index = 0
-        while index < len (command_names):
-            cmd_name = command_names [index][0]
-            if len (cmd_name) == 0 or cmd_name [0] != first_char:
-                # A character in this entry does not match the input string: remove it from the list of candidates
-                del command_names [index]
-            else:
-                command_names [index] = (cmd_name [1:], command_names [index][1])
-                index += 1
-    return { c: command_dict [c] for _,c in command_names }
-
+    return result
 
 
 class CommandError (RuntimeError):

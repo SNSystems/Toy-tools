@@ -73,8 +73,8 @@ class LoadTests (unittest.TestCase):
         self.assertSequenceEqual (expected, instructions)
 
         n2.read_debug (binary=self.__sections [SectionType.debug_line], line_base=0)
-        self.assertEquals (SourceLocation (srcfile="foo.toy", line=23, column=29), instructions [0].locn ())
-        self.assertEquals (SourceLocation (srcfile="foo.toy", line=24, column=31), instructions [1].locn ())
+        self.assertEqual (SourceLocation (srcfile="foo.toy", line=23, column=29), instructions [0].locn ())
+        self.assertEqual (SourceLocation (srcfile="foo.toy", line=24, column=31), instructions [1].locn ())
 
 
 if __name__ == "__main__":
