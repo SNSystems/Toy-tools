@@ -1,1 +1,4 @@
 __pycache__
+*.x
+*.o
+*.yaml
