@@ -29,7 +29,7 @@ Now to explain the program itself. In outline it looks like `main { ... }`. This
 
     "Hello, World"
    
-This series of characters enclosed in double-quotes is a _character string_ or just _string_ instruction. In Toy, executing a string places it on the _operand stack_. This is a "last in, first out" (LIFO) data structure. The operand stack hold arbitrary objects that are the operands and results of the instruction being executed. When an instruction requires or or more operands, it obtains them by popping them off the top of the operand stack. When an instruction returns one or more results, it does so by pushing them on the operand stack.
+This series of characters enclosed in double-quotes is a _character string_ or just _string_ instruction. In Toy, executing a string places it on the _operand stack_. This is a "last in, first out" (LIFO) data structure. The operand stack holds arbitrary objects that are the operands and results of the instruction being executed. When an instruction requires or or more operands, it obtains them by popping them off the top of the operand stack. When an instruction returns one or more results, it does so by pushing them on the operand stack.
 
 The second instruction in our hello.toy program is simply:
 
@@ -37,7 +37,7 @@ The second instruction in our hello.toy program is simply:
     
 `print` is a built-in name which pops a value from the operand stack &mdash; the string "Hello, World" in our case &mdash; and prints it to standard-out.
 
-###Some Arithmetic###
+### Some Arithmetic ###
 
 A simple calculation to add the numbers two and three can written using conventional algebraic notation as:
 
@@ -58,7 +58,7 @@ In Toy, this same expression would be written as:
 This snippet of code consists of three instructions. The first two are both numbers; executing a number places it on the operand stack (in the same way that we've already seen for strings). The third instruction, "add" is the name of a built-in operator which removes two numbers from the operand stack, adds them, then places the result back on the operand stack.
 
 
-###Decisions, Decisions###
+### Decisions, Decisions ###
 
 (a brief discussion of procedures, booleans, if/ifelse)
 
@@ -114,7 +114,8 @@ See also: [div](#BIdiv) [mul](#BImul) [sub](#BIsub)
 #### [begin](id:BIbegin)
 
 _dict_ **begin** &mdash;
-Pushes _dict_ on the dictionary stack, making it the current dictionary and installing it as the first of the dictionaries consulted during name lookup and by **def**.
+
+Pushes _dict_ on the dictionary stack, making it the current dictionary and installing it as the first of the dictionaries consulted during name lookup and by **def**.
 
 See also: [def](#BIdef) [dict](#BIdict) [end](#BIend)
 
@@ -131,9 +132,12 @@ See also: [trace](#BItrace)
 #### [def](id:BIdef)
 
 _key_ _value_ **def** &mdash;
-Associates _key_ with _value_ in the current dictionary (the one on the top of the [dictionary stack](#dictstack)). If _key_ is already present in the current dictionary, **def** simply replaces its value; otherwise, **def** creates a new entry for _key_ and stores _value_ with it.
-See also: [begin](#BIbegin) [end](#BIend) [get](#BIget)
-#### [dict](id:BIdict)
+
+Associates _key_ with _value_ in the current dictionary (the one on the top of the [dictionary stack](#dictstack)). If _key_ is already present in the current dictionary, **def** simply replaces its value; otherwise, **def** creates a new entry for _key_ and stores _value_ with it.
+
+See also: [begin](#BIbegin) [end](#BIend) [get](#BIget)
+
+#### [dict](id:BIdict)
 
 &mdash; **dict** _dict_
 
@@ -144,7 +148,8 @@ See also: [begin](#BIbegin) [end](#BIend)
 #### [div](id:BIdiv)
 
 _num<sub>1</sub>_ _num<sub>2</sub>_ **div** _quotient_
-Divides _num<sub>1</sub>_ by _num<sub>2</sub>_, producing a number.
+
+Divides _num<sub>1</sub>_ by _num<sub>2</sub>_, producing a number.
 
 See also: [add](#BIadd) [mul](#BImul) [sub](#BIsub)
 
